@@ -1,0 +1,15 @@
+{
+  "name": "00_zadanie_testowe",
+  "version": "1.0.0",
+  "description": "Zadanie testowe na konkurs \"Najlepszy Programista JavaScript\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "Michał Czyż",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
