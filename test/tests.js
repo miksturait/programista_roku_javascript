@@ -11,6 +11,6 @@ describe("Game of Life", function () {
       requested_generations = [5,6];
 
     expect(gameOfLife(word_size, live_cells_coordinates, requested_generations))
-        .to.eq([[[11,10], [11,11], [11,12]], [[10,11],[11,11],[12,11]]]);
+        .to.deep.equal([[[11,10], [11,11], [11,12]], [[10,11],[11,11],[12,11]]]);
   });
 });
