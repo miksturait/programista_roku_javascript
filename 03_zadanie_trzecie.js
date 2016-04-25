@@ -3,7 +3,7 @@
 //   każde pole może odwiedzić tylko raz w czasie jednego przejścia.
 // Robot zaczyna w lewym górnym rogu, a jego celem jest prawy dolny róg siatki.
 //
-// 2 ≤ `grid_size` ≤ 10
+// 2 ≤ `grid_size` ≤ 8
 
 export default function(grid_size) {
    return 0;
